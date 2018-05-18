@@ -5,7 +5,9 @@ const Web3 = require('cita-web3')
 const log = require('./log')
 
 const dirFilesRequire = (dir) => {
-  const p = path.resolve(__dirname, dir)
+  const rootPath = process.cwd()
+  const p = path.resolve(rootPath, dir)
+  log(p)
   const files = fs.readdirSync(p)
   const a = []
   files.forEach((file, i) => {
@@ -16,7 +18,7 @@ const dirFilesRequire = (dir) => {
 }
 
 const contractFileNames = () => {
-  const dir = '../build/contracts'
+  const dir = './build/contracts'
   const cons = dirFilesRequire(dir)
   return cons
 }
@@ -66,7 +68,7 @@ const parsedCommandWeb3 = (args) => {
   const config = require(p)
   const { networks } = config
   let network
-  if (args[0] === '--network') {
+  if (args && args[0] === '--network') {
     network = networks[1]
   } else {
     network = networks.development

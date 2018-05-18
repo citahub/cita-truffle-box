@@ -7,6 +7,10 @@
     "cita-web3": "^0.5.8"
   },
   "scripts": {
-    "cita:migrate": "node migrate/index.js"
+    "cita:migrate": "node_modules/.bin/cita-migrate",
+    "test": "node ../cita-truffle-migrate/dist/index.js"
+  },
+  "devDependencies": {
+    "@cita/truffle-migrate": "0.0.2"
   }
 }
