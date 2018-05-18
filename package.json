@@ -1,16 +1,16 @@
 {
   "name": "cita-truffle-box",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "cita-web3": "^0.5.8"
+    "cita-web3": "^0.5.9"
   },
   "scripts": {
-    "cita:migrate": "node_modules/.bin/cita-migrate",
+    "cita:migrate": "cita-migrate",
     "test": "node ../cita-truffle-migrate/dist/index.js"
   },
   "devDependencies": {
-    "@cita/truffle-migrate": "0.0.2"
+    "@cita/truffle-migrate": "0.0.3"
   }
 }

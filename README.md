@@ -16,6 +16,11 @@ npm install
 
 # 使用
 
+## 配置
+
+在 truffle-cita.js 下参照模板进行配置
+
+
 ## 编译合约
 
 ```
@@ -23,6 +28,10 @@ truffle compile
 ```
 
 ## 部署合约
+
+在 migrations 目录下参照模板编写编译代码
+
+运行指令
 
 ```
 node migrate/index.js

@@ -6,5 +6,13 @@ module.exports = {
             network_id: '*', // Match any network id
         },
     },
-    privateKey: '352416e1c910e413768c51390dfd791b414212b7b4fe6b1a18f58007fa894214',
+    contractInfo: {
+        chainId: 0,
+        to: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+        privkey: 'aaa',
+        // nonce: getRandomInt(),
+        quota: 999999,
+        // validUntilBlock: 0,
+        version: 0,
+    }
 }

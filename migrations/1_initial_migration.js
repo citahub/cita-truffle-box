@@ -1,3 +1,4 @@
+var artifacts
 if (artifacts) {
     var Migrations = artifacts.require('./Migrations.sol')
 } else {
@@ -5,5 +6,5 @@ if (artifacts) {
 }
 
 module.exports = function(deployer) {
-  deployer.deploy(Migrations)
+    deployer.deploy(Migrations)
 }

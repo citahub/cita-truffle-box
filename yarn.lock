@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@cita/truffle-migrate@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@cita/truffle-migrate/-/truffle-migrate-0.0.2.tgz#98a9ebd32a8cd2cecba964bd93e19fdfb8bbe8ab"
+"@cita/truffle-migrate@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@cita/truffle-migrate/-/truffle-migrate-0.0.3.tgz#7bb1893462e3ef8729b902b17e8c483e35cecdc1"
   dependencies:
     cita-web3 "0.5.9"
 
@@ -374,27 +374,9 @@ circular-json@^0.5.1:
   version "0.5.4"
   resolved "https://registry.yarnpkg.com/circular-json/-/circular-json-0.5.4.tgz#ff1ad2f2e392eeb8a5172d4d985fa846ed8ad656"
 
-cita-web3@0.5.9:
+cita-web3@0.5.9, cita-web3@^0.5.9:
   version "0.5.9"
   resolved "https://registry.yarnpkg.com/cita-web3/-/cita-web3-0.5.9.tgz#1a77b1eb5c318296f0ef687c063afb0a740f0a11"
-  dependencies:
-    bignumber.js "git+https://github.com/frozeman/bignumber.js-nolookahead.git"
-    buffer "5.0.8"
-    crypto-js "^3.1.4"
-    eccrypto "1.0.3"
-    elliptic "6.4.0"
-    google-protobuf "^3.5.0"
-    log4js "^2.5.3"
-    npm "^5.7.1"
-    solc "0.4.19"
-    uglify-es "^3.3.9"
-    utf8 "^2.1.1"
-    xhr2 "*"
-    xmlhttprequest "*"
-
-cita-web3@^0.5.8:
-  version "0.5.8"
-  resolved "https://registry.yarnpkg.com/cita-web3/-/cita-web3-0.5.8.tgz#0ba1257928da16523cbb6219cf7aae3876365465"
   dependencies:
     bignumber.js "git+https://github.com/frozeman/bignumber.js-nolookahead.git"
     buffer "5.0.8"
