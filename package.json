@@ -11,6 +11,6 @@
     "test": "node ../cita-truffle-migrate/dist/index.js"
   },
   "devDependencies": {
-    "@cita/truffle-migrate": "0.0.3"
+    "@cita/truffle-migrate": "0.0.5"
   }
 }
