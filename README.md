@@ -31,11 +31,11 @@ module.exports = {
     },
     contractInfo: {
         chainId: 0,
-        privkey: 'aaa',
-        // validUntilBlock: '',
-        // nonce: getRandomInt(),
-        // quota: 999999,
-        // version: 0,
+        privkey: 'private key',
+        // validUntilBlock: [block number + 88],
+        // nonce: [random int],
+        // quota: [999999],
+        // version: [0],
     },
 }
 ```
