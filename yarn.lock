@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@cita/truffle-migrate@0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@cita/truffle-migrate/-/truffle-migrate-0.0.5.tgz#bc17d0bcc6d531d02da044e17d300c71178d70f8"
+"@cita/truffle-migrate@0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@cita/truffle-migrate/-/truffle-migrate-0.0.6.tgz#860b136add2dd95da702a6fb14116c0ff4073dcf"
   dependencies:
     cita-web3 "0.5.9"
 
