@@ -1,68 +1,55 @@
 # cita-truffle-box
 
-# 安装
+# Installation
 
-## 安装 truffle
+## Install truffle
 
 ```
 npm install -g truffle
 ```
 
-## 安装依赖
+## Install Dependencies
 
 ```
 npm install
 ```
 
-# 使用
+# Usage
 
-## 配置
+## Config
 
-在 truffle-cita.js 下参照模板进行配置
+You can configure your box in `truffle-cita.js`.
 
 ### chainId
 
-cita 链的 id
-
-默认为 0
+chain id of cita, default to 0.
 
 ### privkey
 
-你的私钥
+Your private key to send transaction.
 
 ### nonce
 
-默认是随机数字
+Use to prevent double-spending, default to random integer from 1 - 100
 
 ### quota
 
-默认 999999
+Similar to gas, default to 99999
 
 ### version
 
-默认为 0
+default to 0
 
-
-
-## 编译合约
+## Compile
 
 ```
 truffle compile
 ```
 
-## 部署合约
+## Migration
 
-在 migrations 目录下参照模板编写编译代码
-
-运行指令
-
-```
+```shell
 node migrate/index.js
-```
-或者
-
-```
+# or
 npm run cita:migrate
 ```
-
-
