@@ -26,8 +26,6 @@ cita 链的 id
 
 默认为 0
 
-### to
-
 ### privkey
 
 你的私钥
