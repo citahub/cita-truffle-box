@@ -20,6 +20,31 @@ npm install
 
 在 truffle-cita.js 下参照模板进行配置
 
+### chainId
+
+cita 链的 id
+
+默认为 0
+
+### to
+
+### privkey
+
+你的私钥
+
+### nonce
+
+默认是随机数字
+
+### quota
+
+默认 999999
+
+### version
+
+默认为 0
+
+
 
 ## 编译合约
 
