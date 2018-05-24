@@ -8,6 +8,12 @@
 npm install -g truffle
 ```
 
+## Unbox Repository
+
+```
+truffle unbox CITA-Toys/cita-truffle-box
+```
+
 ## Install Dependencies
 
 ```
