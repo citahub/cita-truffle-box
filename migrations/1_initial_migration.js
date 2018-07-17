@@ -1,8 +1,8 @@
 var artifacts
 if (artifacts) {
-    var Migrations = artifacts.require('./Migrations.sol')
+    var Migrations = artifacts.require('./HelloWorld.sol')
 } else {
-    var Migrations = 'Migrations'
+    var Migrations = 'HelloWorld'
 }
 
 module.exports = function(deployer) {
