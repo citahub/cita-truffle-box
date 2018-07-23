@@ -5,5 +5,7 @@ node_modules
 build
 yarn-error.log
 box-img-lg.jpg
+truffle-cita.private.js
+contracts
 
 
