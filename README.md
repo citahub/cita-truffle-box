@@ -5,7 +5,7 @@
 ## Install truffle
 
 ```
-npm install -g truffle
+npm install -g truffle@4.0.6
 ```
 
 ## Unbox Repository
