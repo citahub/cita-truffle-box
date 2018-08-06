@@ -12,6 +12,6 @@ if (artifacts) {
 }
 
 module.exports = function(deployer) {
-  deployer.deploy([[HelloWorld], [Migrations]]).then((res) => {
+  deployer.deploy([[HelloWorld]]).then((res) => {
   })
 }
