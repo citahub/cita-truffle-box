@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@cita/truffle-migrate@0.0.9":
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@cita/truffle-migrate/-/truffle-migrate-0.0.9.tgz#a3746b53c8ff13dfe5100940e74864146a46603b"
+"@nervos/appchain-turffle-migrate@0.0.11":
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/@nervos/appchain-turffle-migrate/-/appchain-turffle-migrate-0.0.11.tgz#f2f3cc7ed2f484a9ef6bd9b7c2fa3a7ffe61f934"
   dependencies:
     "@nervos/web3" "0.17.35"
     utf8 "3.0.0"

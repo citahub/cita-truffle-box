@@ -1,13 +1,13 @@
 {
-  "name": "cita-truffle-box",
+  "name": "appchain-truffle-box",
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {},
   "scripts": {
-    "cita:migrate": "cita-migrate"
+    "migrate": "appchain-migrate"
   },
   "devDependencies": {
-    "@cita/truffle-migrate": "0.0.9"
+    "@nervos/appchain-turffle-migrate": "0.0.11"
   }
 }

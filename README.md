@@ -1,4 +1,4 @@
-# cita-truffle-box
+# AppChain-Truffle-Box
 
 # Installation
 
@@ -11,7 +11,7 @@ npm install -g truffle
 ## Unbox Repository
 
 ```
-truffle unbox CITA-Toys/cita-truffle-box
+truffle unbox Cryptape/AppChain-Truffle-Box
 ```
 
 ## Install Dependencies
@@ -24,7 +24,7 @@ npm install
 
 ## Config
 
-You can configure your box in `truffle-cita.js`.
+You can configure your box in `truffle-appchain.js`.
 
 ```js
 module.exports = {
@@ -50,13 +50,13 @@ module.exports = {
 
 Set network by `--network [network name]`
 
-One of `host + port` and `provider` should be configured to deploy smart contract to cita
+One of `host + port` and `provider` should be configured to deploy smart contract to AppChain
 
 ### contractInfo
 
 #### chainId [required]
 
-Chain id of cita, default to 0.
+Chain id of AppChain, default to 0.
 
 #### privkey [required]
 
@@ -90,7 +90,7 @@ truffle compile
 
 0.  Add migration scripts in `migration`
 
-1.  Migrate to CITA
+1.  Migrate to AppChain
     ```
-    npm run cita:migrate
+    npm run migrate
     ```
