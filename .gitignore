@@ -4,8 +4,5 @@
 node_modules
 build
 yarn-error.log
-box-img-lg.jpg
-truffle-cita.private.js
+truffle-appchain.private.js
 contracts
-
-

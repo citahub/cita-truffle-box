@@ -5,7 +5,7 @@
   ],
   "commands": {
     "Compile contracts": "truffle compile",
-    "Migrate contracts to cita": "npm run cita:migrate",
+    "Migrate contracts to AppChain": "npm run migrate",
     "Migrate contracts to Ethereum": "truffle migrate",
     "Test contracts": "truffle test"
   },
