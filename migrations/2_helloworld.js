@@ -6,12 +6,10 @@ if (artifacts) {
   var HelloWorld = {
     build: 'HelloWorld',
   }
-  var Migrations = {
-    build: 'Migrations',
-  }
 }
 
 module.exports = function(deployer) {
-  deployer.deploy([[HelloWorld]]).then((res) => {
+  deployer.deploy([[HelloWorld, '测试']]).then((res) => {
+    console.log(res[0].contract.sayHi())
   })
 }
