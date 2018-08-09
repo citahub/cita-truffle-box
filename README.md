@@ -50,10 +50,10 @@ module.exports = {
     chainId: 0,
     privkey: 'private key',
     // the following parameters are OPTIONAL,
-    validUntilBlock: [block number + 88],
-    nonce: [random int],
-    quota: [999999],
-    version: [0],
+    validUntilBlock: block number + 88,
+    nonce: 'random int',
+    quota: 999999,
+    version: 0,
   },
 }
 ```
@@ -85,7 +85,8 @@ Chain id of AppChain.
 Your private key to send transaction.
 
 * `nonce` [optional]  
-Nonce is used to prevent double-spending, default to be a random integer from 1 - 100
+Nonce is used to prevent double-spending, default to be a random number from 1 - 100.
+Note that the type of `nonce` is string.
 
 * `quota` [optional]  
 Similar to gas, default to 99999
