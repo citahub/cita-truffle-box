@@ -36,12 +36,12 @@ module.exports = {
     },
   },
   contractInfo: {
-    chainId: 0,
-    privkey: 'private key',
-    // validUntilBlock: [block number + 88],
-    // nonce: [random int],
-    // quota: [999999],
-    // version: [0],
+    chainId: 0, // an int, must set
+    privateKey: 'private key', // a string, must set
+    // validUntilBlock: 999999, // an int,  default is current block number + 88 
+    // nonce: '999', // a string, default is a random int
+    // quota: 999999, // an int, default is 999999
+    // version: 0, // an int
   },
 }
 ```

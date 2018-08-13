@@ -1,6 +1,6 @@
 {
   "name": "appchain-truffle-box",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {},
@@ -8,6 +8,6 @@
     "migrate": "appchain-migrate"
   },
   "devDependencies": {
-    "@nervos/appchain-truffle-migrate": "0.0.12"
+    "@nervos/appchain-truffle-migrate": "0.0.13"
   }
 }
