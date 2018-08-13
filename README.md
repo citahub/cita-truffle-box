@@ -47,13 +47,13 @@ module.exports = {
     }, // you can add other network after here
   },
   contractInfo: {
-    chainId: 0,
-    privkey: 'private key',
-    // the following parameters are OPTIONAL,
-    validUntilBlock: block number + 88,
-    nonce: 'random int',
-    quota: 999999,
-    version: 0,
+    chainId: 0, // an int, required
+    privateKey: 'private key', // a string, required
+    // the following parameters are OPTIONAL
+    // validUntilBlock: 999999, // an int,  default to (current block number)+88
+    // nonce: '999', // a string, default to random int
+    // quota: 999999, // an int, defaut to 999999
+    // version: 0, // an int, defaut to 0
   },
 }
 ```
