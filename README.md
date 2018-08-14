@@ -1,3 +1,5 @@
+![](https://img.shields.io/badge/made%20for-Nervos%20AppChain-blue.svg)
+
 # AppChain-Truffle-Box
 
 This truffle box is customized for you to work with Nervos AppChain. You can use this box to develop DApps on Nervos AppChain. 
