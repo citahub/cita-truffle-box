@@ -10,6 +10,5 @@ if (artifacts) {
 
 module.exports = function(deployer) {
   deployer.deploy([[HelloWorld, '测试']]).then((res) => {
-    console.log(res[0].contract.sayHi())
   })
 }
