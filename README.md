@@ -3,7 +3,7 @@
 # AppChain-Truffle-Box
 
 This truffle box is customized for you to work with Nervos AppChain. You can use this box to develop DApps on Nervos AppChain. 
-Please refer [our document](https://docs.nervos.org/) for more details.
+Please refer [our document](https://docs.nervos.org/) for more details about Nervos Network.
 
 ## Installation
 
@@ -24,13 +24,6 @@ truffle unbox Cryptape/AppChain-Truffle-Box
 
 ```
 npm install
-```
-
-## Compile and Migrate Contracts
-Compile and migrate the smart contracts. Note inside the development console we don't preface commands with truffle.
-```
-compile
-migrate
 ```
 
 ## Configuration
