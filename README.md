@@ -100,7 +100,9 @@ truffle compile
 
 ## Migration
 
-First, add your migration scripts in `/migration`, for the details, please refer [this official document](https://cryptape.quip.com/mirjAqb1GJIa) for details.
+If you want to deploy your own 'hello world' contract, you should write your own '2_helloworld.js' to the '/migration' folder and write your own 'HelloWorld.sol' to the '/contracts' folder.
+
+For more details, please refer [this official document](https://cryptape.quip.com/mirjAqb1GJIa) for details.
 
 Run the command to do migration. (Note that we can NOT use `truffle migrate` command here...)
 ```
