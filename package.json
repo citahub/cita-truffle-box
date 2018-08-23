@@ -5,9 +5,9 @@
   "license": "MIT",
   "dependencies": {},
   "scripts": {
-    "migrate": "appchain-migrate"
+    "migrate": "appchain-migrate migrate"
   },
   "devDependencies": {
-    "@nervos/appchain-truffle-migrate": "0.0.13"
+    "@nervos/appchain-truffle-migrate": "0.1.0"
   }
 }
