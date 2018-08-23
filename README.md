@@ -106,3 +106,4 @@ Run the command to do migration. (Note that we can NOT use `truffle migrate` com
 ```
 npm run migrate
 ```
+
