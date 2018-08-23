@@ -37,18 +37,14 @@ module.exports = {
   networks: {
     network_name: {
       host: 'ip_address',
-      port: 0000,
+      port: 'port',
       network_id: '*', // Use '*' to match any network id
+      privateKey: 'private key', // a string, required
+      // the following parameters are OPTIONAL
+      // validUntilBlock: 999999, // an int,  default to (current block number)+88
+      // nonce: '999', // a string, default to random int
+      // quota: 999999, // an int, defaut to 999999
     }, // you can add other network after here
-  },
-  contractInfo: {
-    chainId: 0, // an int, required
-    privateKey: 'private key', // a string, required
-    // the following parameters are OPTIONAL
-    // validUntilBlock: 999999, // an int,  default to (current block number)+88
-    // nonce: '999', // a string, default to random int
-    // quota: 999999, // an int, defaut to 999999
-    // version: 0, // an int, defaut to 0
   },
 }
 ```
@@ -71,28 +67,21 @@ Specify the host port.
 * `network_id`[required]  
 Specify the network_id.
 
-### contractInfo
+* `privateKey` [required]  
 
-* `chainId` [required]  
-Chain id of AppChain.
-
-* ``privkey`` [required]  
-Your private key to send transaction.
+  Your private key to send transaction.
 
 * `nonce` [optional]  
-Nonce is used to prevent double-spending, default to be a random number from 1 - 100.
-Note that the type of `nonce` is string.
+  Nonce is used to prevent double-spending, default to be a random number from 1 - 100.
+  Note that the type of `nonce` is string.
 
 * `quota` [optional]  
-Similar to gas, default to 99999
-
-* `version` [optional]  
-default to 0
+  Similar to gas, default to 99999
 
 * `validUntilBlock` [optional]  
-Similar to timeout, default to be `current height + 88`
+  Similar to timeout, default to be `current height + 88`
 
-## Compile
+## Compile[optional]
 Compile the smart contract.
 ```
 truffle compile
@@ -106,4 +95,3 @@ Run the command to do migration. (Note that we can NOT use `truffle migrate` com
 ```
 npm run migrate
 ```
-

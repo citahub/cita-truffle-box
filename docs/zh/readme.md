@@ -47,7 +47,6 @@ module.exports = {
       // validUntilBlock: 999999, // 数字, 默认为当前块高度加上 88
       // nonce: '999', // 字符串, 默认为一个 1 - 100 之间的随机整数字符串
       // quota: 999999, // 整数, 默认为 999999
-      // version: 0, // 整数, 默认为 0
     }, // you can add other network after here
   },
 }
@@ -57,7 +56,7 @@ module.exports = {
 
 > 可以配置多个 network.
 
-可以指定 network 在
+可以通过以下指令来指定 network
 ```
 truffle --network [network_name]
 ```
@@ -88,7 +87,10 @@ truffle --network [network_name]
   类似 timeout, 默认为当前块高度加上 88
 
 ## Compile
-Compile the smart contract.
+
+这一步可以省略, 因为在迁移时会检查合约有没有编译在正确的目录下并自动编译没有正确编译的合约
+
+输入下面的指令来编译合约
 ```
 truffle compile
 ```
@@ -97,9 +99,13 @@ truffle compile
 
 你必须先完成迁移脚本才能使用 Truffle 与 AppChain 交互
 
-First, add your migration scripts in `/migration`, for the details, please refer [this official document](https://cryptape.quip.com/mirjAqb1GJIa) for details.
+迁移脚本必须写在 migration 目录下.
 
-Run the command to do migration. (Note that we can NOT use `truffle migrate` command here...)
+在 migration 目录下有示例代码, 可以参照.
+
+更多细节可以参阅 Truffle 的 [RUNNING MIGRATIONS](https://truffleframework.com/docs/truffle/getting-started/running-migrations)
+
+输入下面的命令可以与 AppChain 交互 (注意这里 **不是** `truffle migrate` 命令)
 ```
 npm run migrate
 ```
