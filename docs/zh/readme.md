@@ -6,7 +6,7 @@ AppChain-Truffle-Box 是为了使开发者可以借助 Truffle 完成 Nervos App
 
 请阅读 [我们的文档](https://docs.nervos.org/) 以了解 Nervos Network 详情
 
-在使用这个项目之前, 你需要学会使用 [Truffle](https://truffleframework.com/docs/truffle/getting-started/installation)
+这个项目替代了 Truffle 的 migrate 操作, 所以你需要先阅读 Truffle 的相关文档, 尤其是[RUNNING MIGRATIONS](https://truffleframework.com/docs/truffle/getting-started/running-migrations), 这是对 migrate 操作的详细说明. 
 
 ## 安装
 
@@ -33,7 +33,7 @@ npm install
 
 在 `truffle.js` 中进行配置.
 
-结构如下.
+结构如下. 相对于 Truffle 原本的配置, 这里多了 privateKey 属性.
 
 ```js
 module.exports = {
