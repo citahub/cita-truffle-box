@@ -10,6 +10,6 @@
     "migrate": "appchain-migrate migrate"
   },
   "devDependencies": {
-    "@nervos/appchain-truffle-migrate": "0.1.1"
+    "@nervos/appchain-truffle-migrate": "0.1.2"
   }
 }

@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@nervos/appchain-truffle-migrate@0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@nervos/appchain-truffle-migrate/-/appchain-truffle-migrate-0.1.1.tgz#384b1925bc211d160c11f0f850bccbb7acd8499a"
+"@nervos/appchain-truffle-migrate@0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@nervos/appchain-truffle-migrate/-/appchain-truffle-migrate-0.1.2.tgz#ad8ef88ded0cc16818adfa90d8236589dfe884c2"
   dependencies:
     "@nervos/chain" "^0.17.5"
     async "^2.6.1"
