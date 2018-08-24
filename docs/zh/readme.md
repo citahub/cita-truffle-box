@@ -13,19 +13,19 @@ AppChain-Truffle-Box 是为了使开发者可以借助 Truffle 完成 Nervos App
 1. 全局安装 Truffle
 
 必须先安装 Truffle 之后才能正确运行 AppChain-Truffle-Box.
-```
+```shell
 npm install -g truffle
 ```
 
 2. 在空目录下下载 box
 
-```
+```shell
 truffle unbox Cryptape/AppChain-Truffle-Box
 ```
 
 3. Truffle 会自动安装依赖, 但如果安装失败你可以自己手动安装
 
-```
+```shell
 npm install
 ```
 
@@ -57,7 +57,7 @@ module.exports = {
 > 可以配置多个 network.
 
 可以通过以下指令来指定 network
-```
+```shell
 truffle --network [network_name]
 ```
 
@@ -91,7 +91,7 @@ truffle --network [network_name]
 这一步可以省略, 因为在迁移时会检查合约有没有编译在正确的目录下并自动编译没有正确编译的合约
 
 输入下面的指令来编译合约
-```
+```shell
 truffle compile
 ```
 
@@ -106,6 +106,6 @@ truffle compile
 更多细节可以参阅 Truffle 的 [RUNNING MIGRATIONS](https://truffleframework.com/docs/truffle/getting-started/running-migrations)
 
 输入下面的命令可以与 AppChain 交互 (注意这里 **不是** `truffle migrate` 命令)
-```
+```shell
 npm run migrate
 ```
