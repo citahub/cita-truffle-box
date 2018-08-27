@@ -100,7 +100,7 @@ truffle compile
 
 ## Migration
 
-First, add your migration scripts in `/migration`, for the details, please refer [this official document](https://cryptape.quip.com/mirjAqb1GJIa) for details.
+First, add your migration scripts in `/migration`, for the details, please refer [this official document](https://truffleframework.com/docs/truffle/getting-started/running-migrations#migration-files) for details.
 
 Run the command to do migration. (Note that we can NOT use `truffle migrate` command here...)
 ```
