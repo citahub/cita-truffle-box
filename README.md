@@ -2,7 +2,7 @@
 
 # AppChain-Truffle-Box
 
-[Chinese](docs/zh/readme.md)
+[Chinese](https://github.com/cryptape/appchain-truffle-box/blob/master/docs/zh/readme.md)
 
 AppChain-Truffle-Box is customized for you to develop DApps on Nervos AppChain.
 Please refer to[our document](https://docs.nervos.org/) for more details about Nervos Network.
