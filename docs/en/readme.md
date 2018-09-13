@@ -37,7 +37,7 @@ The configure options are shown below.
 ```js
 module.exports = {
   networks: {
-    network_name: {
+    development: {
       host: 'ip_address', // eg. '121.196.200.225'
       port: 'port', // eg. 1337
       network_id: '*', // Use '*' to match any network id
