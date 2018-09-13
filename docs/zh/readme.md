@@ -38,7 +38,7 @@ npm install
 ```js
 module.exports = {
   networks: {
-    network_name: {
+    development: {
       host: 'ip_address',
       port: 0000, //
       network_id: '*', // 字符串, 必须设置
