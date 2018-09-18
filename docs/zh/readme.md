@@ -6,7 +6,7 @@ AppChain-Truffle-Box 是为了使开发者可以借助 Truffle 完成 Nervos App
 
 请阅读 [我们的文档](https://docs.nervos.org/) 以了解 Nervos Network 详情
 
-这个项目替代了 Truffle 的 migrate 操作, 所以你需要先阅读 Truffle 的相关文档, 尤其是[RUNNING MIGRATIONS](https://truffleframework.com/docs/truffle/getting-started/running-migrations), 这是对 migrate 操作的详细说明. 
+这个项目替代了 Truffle 的 migrate 操作, 所以你需要先阅读 Truffle 的相关文档, 尤其是[RUNNING MIGRATIONS](https://truffleframework.com/docs/truffle/getting-started/running-migrations), 这是对 migrate 操作的详细说明.
 
 ## 安装
 
@@ -14,19 +14,16 @@ AppChain-Truffle-Box 是为了使开发者可以借助 Truffle 完成 Nervos App
 
 必须先安装 Truffle 之后才能正确运行 AppChain-Truffle-Box.
 ```shell
-npm install -g truffle
+yarn global add truffle
 ```
 
-2. 在空目录下下载 box
+2. 下载项目
 
 ```shell
-truffle unbox Cryptape/AppChain-Truffle-Box
-```
-
-3. Truffle 会自动安装依赖, 但如果安装失败你可以自己手动安装
-
-```shell
-npm install
+git clone https://github.com/cryptape/appchain-truffle-box.git
+cd appchain-truffle-box/
+rm -rf .git
+yarn install
 ```
 
 ## 设置
@@ -38,9 +35,9 @@ npm install
 ```js
 module.exports = {
   networks: {
-    network_name: {
+    development: {
       host: 'ip_address',
-      port: 0000, // 
+      port: 0000, //
       network_id: '*', // 字符串, 必须设置
       privateKey: 'private key', // 字符串, 必须设置
       // 下面的属性是可选的
@@ -54,12 +51,7 @@ module.exports = {
 
 ### networks
 
-> 可以配置多个 network.
-
-可以通过以下指令来指定 network
-```shell
-truffle --network [network_name]
-```
+现在 networks 的属性名只支持 'development'
 
 * `host`[required]  
   指定 ip 或域名. 不要带协议
@@ -76,9 +68,9 @@ truffle --network [network_name]
   你的私钥, 记得保管好, 不要泄露 .
 
 * `nonce` [optional]  
-  Nonce 是用来防止 double-spending, 
+  Nonce 是用来防止 double-spending,
 
-  字符串, 默认为一个 1 - 100 之间的随机整数字符串
+  字符串, 默认为一个 1 ~ 100 之间的随机整数字符串
 
 * `quota` [optional]  
   类似 gas, 整数, 默认为 999999
@@ -107,5 +99,5 @@ truffle compile
 
 输入下面的命令可以与 AppChain 交互 (注意这里 **不是** `truffle migrate` 命令)
 ```shell
-npm run migrate
+yarn migrate
 ```
