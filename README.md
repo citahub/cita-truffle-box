@@ -14,11 +14,11 @@ This project rewrite truffle migrate part of truffle-box, so you need to read tr
 1. Install Truffle globally
 
 To use our truffle box, you need to install truffle first.
-```
+```shell
 yarn global add truffle
 ```
 
-2. Download .
+2. Download
 
 ```shell
 git clone https://github.com/cryptape/appchain-truffle-box.git
