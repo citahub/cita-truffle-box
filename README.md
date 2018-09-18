@@ -15,20 +15,18 @@ This project rewrite truffle migrate part of truffle-box, so you need to read tr
 
 To use our truffle box, you need to install truffle first.
 ```
-npm install -g truffle
+yarn global add truffle
 ```
 
-2. Download the box in an empty box.
-> Notice：This step will call npm install automatically, it means you may not need step 3.
-```
-truffle unbox Cryptape/AppChain-Truffle-Box
+2. Download .
+
+```shell
+git clone https://github.com/cryptape/appchain-truffle-box.git
+cd appchain-truffle-box/
+rm -rf .git
+yarn install
 ```
 
-3. Install all dependencies automatically.
-> Notice：This step is optional.
-```
-npm install
-```
 
 ## Configuration
 
@@ -55,12 +53,7 @@ module.exports = {
 
 ### networks
 
-> You can configure multiple networks in truffle.js.
-
-You can specify the network you want to use.
-```
-truffle --network [network_name]
-```
+You must use 'development' as the key for now.
 
 * `host`[required]  
 Specify the host ip_address, don't add protocol name.
@@ -98,5 +91,5 @@ First, add your migration scripts in `/migration`, for the details, please refer
 
 Input the command to do migration. (Note that we can **NOT** use `truffle migrate` command here...)
 ```
-npm run migrate
+yarn migrate
 ```
