@@ -5,8 +5,6 @@
   "license": "MIT",
   "dependencies": {},
   "scripts": {
-    "dev": "node /Users/yao/_cryptape/cita-truffle-migrate/dist/cli.js migrate",
-    "dev2": "truffle migrate --network ganache",
     "migrate": "appchain-migrate migrate"
   },
   "devDependencies": {
