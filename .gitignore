@@ -6,3 +6,4 @@ build
 yarn-error.log
 truffle-appchain.private.js
 contracts
+compiled/*
