@@ -8,4 +8,5 @@ module.exports = {
       network_id: '*',
     },
   },
+  ...require('./truffle-appchain.private')
 }
