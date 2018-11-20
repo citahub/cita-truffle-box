@@ -1,15 +1,13 @@
 {
   "name": "appchain-truffle-box",
-  "version": "0.1.2",
+  "version": "0.20.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {},
   "scripts": {
-    "dev": "node /Users/yao/_cryptape/cita-truffle-migrate/dist/cli.js migrate",
-    "dev2": "truffle migrate --network ganache",
     "migrate": "appchain-migrate migrate"
   },
   "devDependencies": {
-    "@nervos/appchain-truffle-migrate": "0.1.9"
+    "@nervos/appchain-truffle-migrate": "0.20.1"
   }
 }

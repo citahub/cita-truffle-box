@@ -3,9 +3,15 @@ const path = require('path')
 const HelloWorld = artifacts.require('HelloWorld')
 
 module.exports = function(deployer) {
-  deployer.deploy(HelloWorld, '测试', { quota: 9999999 }).then((contract) => {
-    const dirpath = path.resolve(process.cwd(), './compiled')
-    const fpath = path.resolve(dirpath, 'hellowroldCompiled.js')
+  deployer.deploy(HelloWorld, 'test', { quota: 53000, overwrite: false }).then((contract) => {
+    contract.methods
+      .sayHi()
+      .call()
+      .then((res) => console.log('call method sayHi:\n', res))
+
+    const dirpath = path.resolve(process.cwd(), './deployed')
+    fs.existsSync(dirpath) || fs.mkdirSync(dirpath)
+    const fpath = path.resolve(dirpath, 'hellowroldDeployed.js')
     const f = fs.openSync(fpath, 'w+')
 
     let data = ''
