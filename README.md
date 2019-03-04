@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/made%20for-Nervos%20AppChain-blue.svg)
 
-# AppChain-Truffle-Box
+# CITA-Truffle-Box
 
 [Chinese](https://github.com/cryptape/appchain-truffle-box/blob/master/docs/zh/readme.md)
 
-AppChain-Truffle-Box is customized for you to develop DApps on Nervos AppChain.
+CITA-Truffle-Box is customized for you to develop DApps on Nervos AppChain.
 Please refer to[our document](https://docs.nervos.org/) for more details about Nervos Network.
 
 This project rewrite truffle migrate part of truffle-box, so you need to read truffle-tutorial first, especially [RUNNING MIGRATIONS ](https://truffleframework.com/docs/truffle/getting-started/running-migrations) part, this part show you how migrate works in detail.

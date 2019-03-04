@@ -3,7 +3,7 @@ const path = require('path')
 const HelloWorld = artifacts.require('HelloWorld')
 
 module.exports = function(deployer) {
-  deployer.deploy(HelloWorld, 'test', { quota: 53000, overwrite: false }).then((contract) => {
+  deployer.deploy(HelloWorld, 'test', {  overwrite: false }).then((contract) => {
     contract.methods
       .sayHi()
       .call()
