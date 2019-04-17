@@ -1,19 +1,19 @@
-![](https://img.shields.io/badge/made%20for-Nervos%20AppChain-blue.svg)
+[![CITAHub](https://img.shields.io/badge/made%20for-CITAHub-blue.svg)](https://www.citahub.com/)
 
 # CITA-Truffle-Box
 
-[Chinese](https://github.com/cryptape/appchain-truffle-box/blob/master/docs/zh/readme.md)
+English | [简体中文](./README-CN.md)
 
-CITA-Truffle-Box is customized for you to develop DApps on Nervos AppChain.
-Please refer to[our document](https://docs.nervos.org/) for more details about Nervos Network.
+CITA-Truffle-Box is based on [truffle-box](https://github.com/truffle-box) to develop and used for  developing DApps on CITA.
+Please refer to[our document](https://docs.citahub.com/en-US/cita/cita-intro) for more details about CITA.
 
-This project rewrite truffle migrate part of truffle-box, so you need to read truffle-tutorial first, especially [RUNNING MIGRATIONS ](https://truffleframework.com/docs/truffle/getting-started/running-migrations) part, this part show you how migrate works in detail.
+>Notice: This project rewrite truffle migrate part of [truffle-box](https://github.com/truffle-box), please read truffle-tutorial first, especially [RUNNING MIGRATIONS ](https://truffleframework.com/docs/truffle/getting-started/running-migrations) part.
 
 ## Installation
 
 1. Install Truffle globally
 
-To use our truffle box, you need to install truffle first.
+To use CITA-Truffle-Box, please install truffle.
 ```shell
 yarn global add truffle
 ```
@@ -64,10 +64,8 @@ Specify the host port.
 * `network_id`[required]  
 In order to be compatible with truffle, you have to set this attribute, but it's meaningless here.
 
-
 * `privateKey` [required]  
-
-  Your private key to send transaction.
+Your private key for sending transaction.
 
 * `nonce` [optional]  
   Nonce is a string used to prevent double-spending, default to be a random number from 1 ~ 100.
