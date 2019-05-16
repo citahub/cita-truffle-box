@@ -21,8 +21,8 @@ yarn global add truffle
 2. Download
 
 ```shell
-git clone https://github.com/cryptape/appchain-truffle-box.git
-cd appchain-truffle-box/
+git clone https://github.com/cryptape/cita-truffle-box.git
+cd cita-truffle-box/
 rm -rf .git
 yarn install
 ```
