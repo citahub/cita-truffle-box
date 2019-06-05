@@ -20,7 +20,7 @@ module.exports = {
       network_id: '*',
       privateKey: '0x688163347C8BDC907472E630EE67401797CF0B9CA0BFB9B6843AC41A0547679C',
       quota: 953000,
-      version: 1
+      version: 2
     },
   },
 }
