@@ -8,6 +8,6 @@
     "migrate": "npx appchain-migrate migrate"
   },
   "devDependencies": {
-    "@cryptape/cita-truffle-migrate": "0.20.4"
+    "@cryptape/cita-truffle-migrate": "0.24.0"
   }
 }
